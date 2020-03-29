@@ -13,6 +13,7 @@ import (
 )
 
 func main() {
+	
 	flag.Parse()
 	log.Init(nil) // debug flag: log.dir={path}
 	defer log.Close()
@@ -38,4 +39,5 @@ func main() {
 			return
 		}
 	}
+
 }
